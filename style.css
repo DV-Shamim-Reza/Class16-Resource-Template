@@ -1,0 +1,110 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* HEADER START */
+.header{
+    background-color: #341f97;
+}
+.header img{
+    width: 90px;
+}
+.header-menu ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.header-menu ul li {
+    display: inline-block;
+    margin-left: -4px;
+}
+.header-menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 25px;
+    font-size: 17px;
+    line-height: 65px;
+    transition: .5s;
+}
+.header-menu ul li a:hover {
+    background: #29167e;
+    border-radius: 5px;
+}
+
+/* HEADER END */
+
+/* BANNER START */
+.banner{
+    background: url(https://i.ibb.co/5j44Drt/intro-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+}
+.banner h3 {
+    color: #fff;
+    font-size: 30px;
+}
+.banner p {
+    color: #fff;
+    width: 850px;
+    margin:30px auto;
+    font-size: 17px;
+}
+.banner::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.671);
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+/* BANNER END */
+
+
+/* TESTIMONIAL START */
+.testimlnial{
+    padding: 100px 0;
+    background-color: #bac1f3;
+}
+.testimlnial h2{
+    font-size: 50px;
+}
+.team-member p{
+    font-size: 14px;
+}
+/* TESTIMONIAL END */
+
+/* ABOUT START */
+.about{
+    padding: 100px 0;
+    background-color: #c2d4ea;
+}
+.about h2{
+    font-size: 50px;
+}
+/* ABOUT END */
+
+/* CONTACT START */
+.contact{
+    padding: 60px 0;
+}
+.contact h2{
+    font-size: 50px;
+}
+/* CONTACT END */
+
+
+/* FOOTER START */
+.footer{
+    background-color: #341f97;
+}
+/* FOOTER END */
+
+
+
+
+
+
